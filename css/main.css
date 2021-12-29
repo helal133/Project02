@@ -1,0 +1,260 @@
+*{
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#infobar{
+    background-color: #fefffb;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email, .location, .phone{
+    width: calc(40%/3);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#infobar a{
+    text-decoration: none;
+    color: #1a1b1f;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#infobar i{
+    color: #f15323;
+    font-size: 18px;
+}
+
+#infobar a:hover{
+    color: #f15323;
+}
+
+#logobar{
+    background-color: #f15323;
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logobar h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#logobar small{
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+#logobar i{
+    font-size: 30px;
+    color: #1a1b1f;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #1a1b1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .dropbtn{
+    background-color: #1a1b1f;
+    color:#fefffb;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+}
+
+#navbar .dropbtn:hover{
+    color: #f15323;
+    border-bottom: 5px solid #f15323;
+}
+
+#section01{
+    height: 900px;
+    background-image: url("/Users/mohammedhelal/Desktop/Web-Projects/Project02/imgs/sectio01back.png");
+    display: flex;
+    background-attachment:fixed;
+    color: white;
+    margin: 0 auto;
+}
+
+.section01-A{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20%;
+    padding: 80px;
+    margin-left: 140px;
+}
+
+.section01-A h2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.section01-A p{
+    margin-bottom: 30px;
+}
+
+.section01-A button{
+    background-color: transparent;
+    width: 30%;
+    border: 2px solid #fefffb;
+    padding: 20px;
+    color: #fefffb;
+    cursor: pointer;
+}
+
+.section01-A button:hover{
+    background-color: #f15323;
+    border-style: none;
+    color:#fefffb;
+    cursor: pointer;
+}
+
+.section01-B{
+    background-color: rgba(26, 27, 31, 0.7);
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 15%;
+    margin-right: 15px;
+}
+
+.section01-B input{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section01-B h3{
+    font-size: 25px;
+}
+
+.section01-B p{
+    font-size: 16px;
+    width: 100%;
+    text-align: justify;
+}
+
+.section01-B button{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    background-color: #f15323;
+    border-style: none;
+    color:#fefffb;
+    cursor: pointer;
+}
+
+.section01-B button:hover{
+    background-color: transparent;
+    border: 2px solid #fefffb;
+    color: #fefffb;
+    cursor: pointer;
+}
+
+#section02{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section02 .section02-A{
+    width: 45%;
+}
+
+#section02 .section02-B{
+    width: 45%;
+}
+
+.section02-heading{
+    margin-top: 70px;
+    margin-left: 215px;
+}
+
+.hr-section02{
+    width: 80px;
+    margin-left: 215px;
+    height: 5px;
+    background-color: #1a1b1f;
+    border: none;
+}
+
+.section02-button{
+    margin-left: 215px;
+    width: 10%;
+    height: 40px;
+    background-color: #f15323;
+    border-style: none;
+    color:#fefffb;
+    cursor: pointer;
+}
+
+.section02-button:hover{
+    background-color: #1a1b1f;
+    color: #fefffb;
+    cursor: pointer;
+}
+
+.navbardemo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    width: 80%;
+    font-size: 50px;
+    background-color: #1a1b1f;
+    color: #fefffb;
+    border: 2px solid #f15323;
+}
+
+.sitemaplists{
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.sitemaplists li{
+    height: 5vh;
+    padding: 10px;
+}
+.sitemap:hover .sitemaplists{
+    display: flex;
+}
+
+#item{
+    width: 250px;
+}
